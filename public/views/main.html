@@ -1,0 +1,1085 @@
+<style>
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+button.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2212";
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script>(function(d, s, id) {
+
+      var js, fjs = d.getElementsByTagName(s)[0];
+
+      if (d.getElementById(id)) return;
+
+      js = d.createElement(s); js.id = id;
+
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+
+      fjs.parentNode.insertBefore(js, fjs);
+
+    }(document, 'script', 'facebook-jssdk'));
+
+    </script>
+
+<div id="slider">
+
+  <div class="fullwidthbanner-container">
+
+    <div class="fullwidthbanner">
+
+      <ul>
+
+        <!-- THE third SLIDE -->
+
+        <li data-transition="3dcurtain-vertical" data-slotamount="10" data-masterspeed="300"> <img alt="" src="images/upload/slider-revolution/slider1.jpg" >
+
+          <!-- THE CAPTIONS IN THIS SLDIE -->
+
+          <div class="caption large_text sfb"
+
+                 data-x="25"
+
+                 data-y="100"
+
+                 data-speed="600"
+
+                 data-start="1200"
+
+                 data-easing="easeOutExpo" data-end="7000" data-endspeed="300" data-endeasing="easeInSine" style="color:#778896; font-size:32px; font-weight:bold; line-height:36px; padding-bottom:10px; margin-bottom:10px;" >Mobile Application Development</div>
+
+          <div class="caption big_white sft stt"
+
+                 data-x="25"
+
+                 data-y="147"
+
+                 data-speed="500"
+
+                 data-start="1400"
+
+                 data-easing="easeOutExpo" data-end="7100" data-endspeed="300" data-endeasing="easeInSine" style="color:#006DB2;" >Native iOS and Android Development</div>
+
+          <div class="caption modern_medium_fat sft stt"
+
+                 data-x="25"
+
+                 data-y="194"
+
+                 data-speed="500"
+
+                 data-start="1600"
+
+                 data-easing="easeOutExpo" data-end="7200" data-endspeed="300" data-endeasing="easeInSine" style="color:#006DB2;" >Solutions for B2E, B2B and B2C</div>
+
+          <div class="caption small_text sft stt"
+
+                 data-x="25"
+
+                 data-y="225"
+
+                 data-speed="500"
+
+                 data-start="1900"
+
+                 data-easing="easeOutExpo" data-end="7300" data-endspeed="300" data-endeasing="easeInSine" style="color:#006DB2;" >Porting apps from one platform to another</div>
+
+          <div class="caption small_text sft stt"
+
+                 data-x="25"
+
+                 data-y="225"
+
+                 data-speed="500"
+
+                 data-start="1900"
+
+                 data-easing="easeOutExpo" data-end="7300" data-endspeed="300" data-endeasing="easeInSine" style="color:#006DB2;" >Porting apps from one platform to another</div>
+
+          <div class="caption randomrotate"
+
+                 data-x="25"
+
+                 data-y="300"
+
+                 data-speed="600"
+
+                 data-start="2200"
+
+                 data-easing="easeOutExpo" data-end="7350" data-endspeed="300" data-endeasing="easeInSine" ><img src="images/upload/slider-revolution/ios-icon.png" alt="Image 1"></div>
+
+          <div class="caption randomrotate"
+
+                 data-x="135"
+
+                 data-y="300"
+
+                 data-speed="600"
+
+                 data-start="2700"
+
+                 data-easing="easeOutExpo" data-end="7450" data-endspeed="300" data-endeasing="easeInSine" ><img src="images/upload/slider-revolution/android-icon.png" alt="Image 2"></div>
+
+          <div class="caption randomrotate"
+
+                 data-x="245"
+
+                 data-y="300"
+
+                 data-speed="600"
+
+                 data-start="3100"
+
+                 data-easing="easeOutExpo" data-end="7550" data-endspeed="300" data-endeasing="easeInSine" ><img src="images/upload/slider-revolution/css3-icon.png" alt="Image 3"></div>
+
+          <div class="caption randomrotate"
+
+                 data-x="355"
+
+                 data-y="300"
+
+                 data-speed="600"
+
+                 data-start="3500"
+
+                 data-easing="easeOutExpo" data-end="7650" data-endspeed="300" data-endeasing="easeInSine" ><img src="images/upload/slider-revolution/html5-icon.png" alt="Image 4"></div>
+
+          <div class="caption randomrotate"
+
+                 data-x="680"
+
+                 data-y="40"
+
+                 data-speed="600"
+
+                 data-start="4000"
+
+                 data-easing="easeOutExpo" data-end="7800" data-endspeed="300" data-endeasing="easeInSine" ><img src="images/upload/slider-revolution/iphone-android.png" alt="Image 6"></div>
+
+        </li>
+
+        <li data-transition="turnoff" data-slotamount="10" data-masterspeed="300">
+
+          <!-- THE MAIN IMAGE IN THE second SLIDE -->
+
+          <img alt="" src="images/upload/slider-revolution/slider3.jpg" width="320px"  >
+
+          <!-- THE CAPTIONS IN THIS SLDIE -->
+
+          <div class="caption randomrotate"
+
+                 data-x="0"
+
+                 data-y="105"
+
+                 data-speed="600"
+
+                 data-start="1200"
+
+                 data-easing="easeOutExpo" data-end="7100" data-endspeed="300" data-endeasing="easeInSine" > <img src="images/upload/slider-revolution/slider3-inner.png" alt="Image 1"></div>
+
+          <div class="caption big_white sft stt slide3-style slide2-heading"
+
+                 data-x="638"
+
+                 data-y="126"
+
+                 data-speed="500"
+
+                 data-start="1500"
+
+                 data-easing="easeOutExpo" data-end="7300" data-endspeed="300" data-endeasing="easeInSine" > Web Application Development </div>
+
+          <div class="caption modern_medium_fat sft stt slide3-style slide2-list"
+
+                 data-x="638"
+
+                 data-y="216"
+
+                 data-speed="500"
+
+                 data-start="1700"
+
+                 data-easing="easeOutExpo" data-end="7500" data-endspeed="300" data-endeasing="easeInSine" >
+
+            <ul class="slider-list">
+
+              <li>Customized Ecommerce Solutions with Payment Gateway</li>
+
+              <li>Responsive and Cross Bowser Compatible</li>
+
+              <li>Cloud Development</li>
+
+              <li>Content Management Systems and Blogging Solutions</li>
+
+              <li>Optimized for Latest SEO trends</li>
+
+            </ul>
+
+          </div>
+
+        </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- End slider -->
+
+<!-- content 
+
+			================================================== -->
+
+<div id="content">
+
+  <div class="technology">
+
+    <div class="fullwidth-box">
+
+      <div class="container">
+
+        <ul>
+
+          <li> <i class="fa fa-apple"></i></li>
+
+          <li> <i class="fa fa-android"></i></li>
+
+          <li> <i class="php"></i></li>
+
+          <li> <i class="fa fa-wordpress"></i></li>
+
+          <li> <i class="laravel"></i></li>
+
+          <li> <i class="codeigniter"></i></li>
+
+          <li> <i class="magento"></i></li>
+
+          <li> <i class="fa fa-joomla"></i></li>
+
+          <li> <i class="fa fa-html5"></i></li>
+
+          <li><i class="fa fa-css3"></i></li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="fullwidth-box">
+
+    <div class="container">
+
+      <!-- services-box -->
+
+      <div class="services-box">
+
+        <div class="row">
+
+          <div class="col-md-4">
+
+            <div class="services-post"> <a class="services-icon1" href="#"><i><img src="images/rating-star.png" /></i></a>
+
+              <div class="services-post-content">
+
+                <p> Providing simple and comprehensive IT solutions to our clients.</p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-4">
+
+            <div class="services-post"> <a class="services-icon2" href="#"><i class="fa fa-desktop"></i></a>
+
+              <div class="services-post-content">
+
+                <p> Treating clients as our own partners and support them to meet their own business goals.</p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-4">
+
+            <div class="services-post"> <a class="services-icon3" href="#"><i><img src="images/icon.png" /></i></a>
+
+              <div class="services-post-content">
+
+                <p> Delivering cost effective, high standard and time bound services.</p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- about box-->
+
+      <div class="about-box">
+
+        <div class="row">
+
+          <div class="col-md-6">
+
+            <div class="about-us-text">
+
+              <h3>Who we are</h3>
+
+              <div class="innner-box">
+
+                <!--	<img alt="" src="images/upload/about.jpg">-->
+
+                <p><span >Established in 2010, SBS Group i-Tech Solutions Pvt. Ltd. is involved in providing wide range of services including Mobile application development, Customized Software Development, Website Designing and development, Web Application Development, IT Consultancy and Application maintenance Jobs. With offices in Bhopal and Indore, we are dedicated to provide excellent IT solutions to our prestigious clients worldwide. We make a profound dedication to 
+
+the success of our customers. We always look to press on the demanding conventions and creative limitations. It would not be considered as a dictum if we say "Technology is our Passion". Our dedicated and talented team of designers, programmers, user-experience specialists, strategists, and project managers are passionate about the level of service and quality of work they deliver. This results in well-executed mobile apps and websites, happy clients, and lasting relationships. Personalization and professionalism is what makes SBS Group different.</span> </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          
+
+          
+
+          <div class="col-md-6">
+
+		   <h3>Our Services</h3>
+
+		      <div class="accordion-box">
+
+              <button class="accordion">Android App Development</button>
+<div class="panel">
+  <p>With the figure of Android smartphones sold, the prediction to get doubled in the next few years, businesses need its mobile assistance to stand out from the mass and induce users to come back. The elementary differentiator being appealing design and clean coding, we bring our expertise to put collectively an enriching mobile experience to get our customers going while assisting you to distribute your free, paid, or internal applications in the market.</p>
+  <a ui-sref='android'> Read more</a>
+</div>
+
+<button class="accordion">Web Designing</button>
+<div class="panel">
+  <p>Whatever may be the functionality of a website or mobile application, until it is made eye catching, attractive and with a good feel, it does not makes any sense. But, do designing without knowing technical aspects makes any sense? Of course not! It is not only important to design any web or mobile app as per how it is looking, but it is as important to understand the functionality of the website or application and how a user is going to experience the same.</p>
+   <a ui-sref='webdesign'> Read more</a>
+</div>
+
+<button class="accordion">iOS App Development</button>
+<div class="panel">
+    <p>The privileged and elegant feel of an iOS app is an experience to be cherished.In the arena of smart phones, we are geared up to provide robust and user friendly customized mobile application development services, to make it one of the most rewarding and potential business expansion plans for our clients on the leading Mobile operating system platform, the iOS.</p>
+     <a ui-sref='ios'> Read more</a>
+</div>
+
+<button class="accordion">Web development</button>
+<div class="panel">
+      <p>At SBS Group i-Tech Solutions, we help you to take your business to the next stage with speedy and cost-effective website and web applications development, with intent to deliver your products or services in the market. We deliver high quality and flexible applications that are easy to maintain, consistent, secure and easy to deploy.</p>
+       <a ui-sref='webdevelopment'> Read more</a>
+</div>
+
+<button class="accordion ">SEO</button>
+<div class="panel">
+      
+                      <p>SBS Group Solutions is the leading SEO and Internet Marketing services provider. Nowadays, SEO is not just doing link building for a website; rather it has gone to be more planned approach to get a website on First page of Search Engines. The advent of new Google algorithms is also a new twist for all who want to achieve top rankings in the Google. And thus the SEO strategies are gaining more significance for a web positioning.</p>
+                       <a ui-sref='seo'> Read more</a>
+</div>
+
+								
+
+								</div>
+
+		  
+
+		  
+
+		   </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- client-testimonials -->
+
+  <div class="fullwidth-box testimonials-box">
+
+    <div class="container">
+
+      <h3><span>Client Testimonials</span></h3>
+
+    </div>
+
+
+<div class="container">
+  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <ul class="carousel-inner">
+      <li class="item active">
+         <div class="container">
+
+       
+
+          <div class="message-content" style="padding: 20px 40px;">
+
+            <p>Saurav and his team at SBS Group Solutions have shown excellence in all regards; responsiveness, attention to detail, adherence to schedule, cost and above all, professionalism. With any changes in code we requested upon initial QA, they always had the "yes, we'll do it" attitude which makes such a huge difference for us. Quality of work has also been excellent and they have gone above and beyond their initial scope of work to ensure that the final product was to our satisfaction. Communication was easy via email, chat and Skype and also available over their mobile phone for any urgent issues. We are excited to have found SBS Group and are looking forward to many more projects with them here on. Highly recommend without any reservation.</p>
+
+           <div class="rating"><h6 class="client-name">eFlashApps, LLC</h6></div>
+
+          </div>
+
+        </div>
+
+      </li>
+
+      <li class="item">
+        <div class="container">
+
+
+          <div class="message-content" style="padding: 20px 40px;">
+
+            <p>SBS Group has developed many sites for us. I consider them to be an expert on my team and I would be lost without them. I rely on their expertise to help me make the right choices for every project.</p>
+
+            <h6 class="client-name">Deborah Shaw(Debbie), Id Est Productions</h6>
+
+          </div>
+
+        </div>
+      </li>
+    
+      <li class="item">
+       
+
+        <div class="container">
+
+
+          <div class="message-content" style="padding: 20px 40px;">
+
+            <p>The developer is very responsive and was very easy to work with again. Deadlines were respected as was the budget. The coding was done in compliance to the app store standards which resulted in a highly functional app.</p>
+
+            <h6 class="client-name">Inventive Approach Inc.</h6>
+
+          </div>
+
+        </div>
+
+      </li>
+
+      <li class="item">
+       
+
+        <div class="container">
+
+
+          <div class="message-content" style="padding: 20px 40px;">
+
+             <p>We were glad with our decision to tie up with SBS Group i-Tech Solutions Pvt. Ltd  for our Mobile Development Requirements.  We were impressed with their exceptional service, timely deliveries as well as excellent communication level.  We look forward for a long term and successful cooperation with SBS to always provide the best for our clients.</p>
+
+            <h6 class="client-name">Rana Zaidan, General manager</h6>
+
+          </div>
+
+        </div>
+
+      </li>
+
+      <li class="item">
+       
+
+        <div class="container">
+
+
+          <div class="message-content" style="padding: 20px 40px;">
+
+               <p>Great work, fast learner doesn't cheat and take shortcuts like many other developers.</p>
+
+            <h6 class="client-name">Vern Swift Technology Group, LLC.</h6>
+
+          </div>
+
+        </div>
+
+      </li>
+
+      <li class="item">
+       
+
+        <div class="container">
+
+
+          <div class="message-content" style="padding: 20px 40px;">
+
+              <p>Despite the time zone difference, Saurav (and Ankita who I worked directly most often) were very communicative throughout the whole process. They readily fielded any changes to the product, and in the end, I was happy with the work that they did. I would reach out to them again if I needed app work done.</p>
+
+            <h6 class="client-name">Buggy Robot Design LLC</h6>
+
+          </div>
+
+        </div>
+
+      </li>
+      </ul>
+
+       <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    </div>
+
+   
+  </div>
+</div>
+
+
+   
+  </div>
+
+  <!-- fullwidthsection -->
+
+  <div class="fullwidth-box main-features">
+
+    <div class="container">
+
+<div class="client-section" style="margin-bottom:40px; padding-bottom:40px;">
+
+        <h3> Our Success Partner</h3>
+
+        <div id="carousel-example-generic2" class="carousel slide" data-ride="carousel">
+
+          <!-- Wrapper for slides -->
+
+          <div class="carousel-inner">
+
+            <div class="item active">
+
+              <ul class="clients-list">
+
+                <li><a target="_blank" href="http://bookmyseats.co.in/"><img alt="" src="images/bookmysheat-logo.png"></a></li>
+
+                <li><a target="_blank" href="http://holbrookgranite.com/"><img alt="" src="images/holbrook.png"></a></li>
+
+                <li><a target="_blank" href="http://www.wonderweb.ae/"><img alt="" src="images/wonderweb-logo.png"></a></li>
+
+                <li><a target="_blank" href="http://www.manchestermela.co.uk/"><img alt="" src="images/menchestermela-logo.png"></a></li>
+
+                <li><a target="_blank" href="http://stonemakeover.com/"><img alt="" src="images/stonemakeover-logo.png"></a></li>
+
+                <li><a target="_blank" href="http://idestproductions.com/"><img alt="" src="images/idest-logo.png"></a></li>
+
+              </ul>
+
+            </div>
+
+            <div class="item">
+
+              <ul class="clients-list">
+
+                <li><a target="_blank" href="http://taskgram.com/"><img alt="" src="images/taskgram-logo.png"></a></li>
+
+                <li><a target="_blank" href="http://www.eflashapps.com/"><img alt="" src="images/flash-logo.png"></a></li>
+
+                <li><a target="_blank" href="https://lcahgoa.in/"><img alt="" src="images/rajhans-logo.png"></a></li>
+
+                <li><a target="_blank" href="http://www.inventiveapp.com/"><img alt="" src="images/inventivapp-logo.png"></a></li>
+
+                <li><a target="_blank" href="http://www.abstractartlesson.com/"><img alt="" src="images/abstract-logo.png"></a></li>
+
+                <li><a target="_blank" href="http://danarosedesign.com/"><img alt="" src="images/danarose-logo.png"></a></li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+          <!-- Controls -->
+
+          <a class="left carousel-control" href="#carousel-example-generic2" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right carousel-control" href="#carousel-example-generic2" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a> </div>
+
+      </div>
+    </div>
+
+  </div>
+  <!-- staff-box -->
+ <div class="fullwidth-box getintouch">
+  <div class="container">
+        <div class="row">
+
+          <div class="col-md-4 email">
+
+            <div class="contact-get">
+
+              <div class="contact-get-content">
+                <p> <i class="fa fa-envelope-o hi-icon" aria-hidden="true"></i><a href="mailto: mail@sbsgroupsolutions.com" style="text-decoration: none;">E-Mail Us</a></p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-4 call">
+
+            <div class="contact-get">
+
+              <div class="contact-get-content">
+               <p><i class="fa fa-mobile hi-icon" aria-hidden="true"></i><a href="tel:+919826450971" style="text-decoration: none;">Call Us</a></p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-4 touch">
+
+            <div class="contact-get">
+
+              <div class="contact-get-content">
+                <p><i class="fa fa-skype hi-icon" aria-hidden="true"></i><a href="skype: sbsgroupsolutions?call" style="text-decoration: none;">Get In Touch</a><p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+  </div>
+ 
+
+  <div class="fullwidth-box">
+
+    <div class="">
+
+      <!-- recent-works-box -->
+
+      <div class="recent-works">
+
+        <h3>LATEST PROJECTS</h3>
+
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+          <!-- Wrapper for slides -->
+
+          <div class="carousel-inner">
+
+            <div class="item active">
+
+              <div class="row">
+
+                <div class="col-md-4">
+
+                  <div class="work-post">
+
+                    <div class="work-post-gal"> <img alt="" src="images/portfolio/medium-portfolio/desi-music-medium.png">
+
+                      <div class="hover-box"> <a class="zoom" 
+                     
+                      ><i class="fa fa-plus-circle" onclick="document.getElementById('id01').style.display='block'"
+ class="w3-button"></i></a> 
+
+					  <a class="page"  target="_blank"  href="https://itunes.apple.com/us/app/desi-music-hindi-songs-+-bollywood/id364595835?mt=8"><i class="fa fa-arrow-circle-right"></i></a> </div>
+
+                    </div>
+                   <div id="id01" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        <img src="images/portfolio/full-portfolio/desi-music-full.png">
+      </div>
+    </div>
+  </div>
+
+                    <div class="work-post-content">
+
+                      <h2>DESI MUSIC</h2>
+
+                      <span>IOS Development</span> </div>
+
+                  </div>
+
+                </div>
+				<div class="col-md-4">
+
+                  <div class="work-post">
+
+                    <div class="work-post-gal"> <img alt="" src="images/portfolio/medium-portfolio/i am not dead-medium.png">
+
+                      <div class="hover-box"> <a class="zoom" href="images/portfolio/full-portfolio/i am not dead-full.png"><i class="fa fa-plus-circle"></i></a> <a class="page"  target="_blank"  href="https://itunes.apple.com/us/app/im-not-dead/id998575547?ls=1&mt=8"><i class="fa fa-arrow-circle-right"></i></a> </div>
+
+                    </div>
+
+                    <div class="work-post-content">
+
+                      <h2>I AM NOT DEAD</h2>
+
+                      <span>IOS Development</span> </div>
+
+                  </div>
+
+                </div>
+                <div class="col-md-4">
+
+                  <div class="work-post">
+
+                    <div class="work-post-gal"> <img alt="" src="images/portfolio/medium-portfolio/longshore-medium.png">
+
+                      <div class="hover-box"> <a class="zoom" href="images/portfolio/full-portfolio/longshore.png"><i class="fa fa-plus-circle"></i></a> <a class="page" target="_blank" href="https://itunes.apple.com/us/app/longshore-dispatch/id666451631?mt=8"><i class="fa fa-arrow-circle-right"></i></a> </div>
+
+                    </div>
+
+                    <div class="work-post-content"> 
+
+                      <h2>ABSTRACT LESSION</h2>
+
+                      <span>IOS Development</span> </div>
+
+                  </div>
+
+                </div>
+				 
+
+              </div>
+
+            </div>
+
+            <div class="item">
+
+              <div class="row">
+
+               	<div class="col-md-4">
+
+                  <div class="work-post">
+
+                    <div class="work-post-gal"> <img alt="" src="images/portfolio/medium-portfolio/flashEnglish-medium.png">
+
+                      <div class="hover-box"> <a class="zoom" href="images/portfolio/full-portfolio/FlashEnglish-full.png"><i class="fa fa-plus-circle"></i></a> <a class="page"  target="_blank"  href="https://play.google.com/store/apps/details?id=com.eFlashEnglish"><i class="fa fa-arrow-circle-right"></i></a> </div>
+
+                    </div>
+
+                    <div class="work-post-content">
+
+                      <h2>BABY FLASH CARD</h2>
+
+                      <span>Android Development</span> </div>
+
+                  </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                  <div class="work-post">
+
+                    <div class="work-post-gal"> <img alt="" src="images/portfolio/medium-portfolio/pamflets-mediuml.png">
+
+                      <div class="hover-box"> <a class="zoom" href="images/portfolio/full-portfolio/pamflets-fullmain.png"><i class="fa fa-plus-circle"></i></a> <a class="page" target="_blank" href="https://play.google.com/store/apps/details?id=com.pack.palmflatapp&hl=en"><i class="fa fa-arrow-circle-right"></i></a> </div>
+
+                    </div>
+
+                    <div class="work-post-content"> 
+
+                      <h2>PAMFLETS APP</h2>
+
+                      <span>Android Development</span> </div>
+
+                  </div>
+
+                </div>
+
+                
+
+                <div class="col-md-4">
+
+                  <div class="work-post">
+
+                    <div class="work-post-gal"> <img alt="" src="images/portfolio/medium-portfolio/taskgram-medium1.png">
+
+                      <div class="hover-box"> <a class="zoom" href="images/portfolio/full-portfolio/taskgram1-full.png"><i class="fa fa-plus-circle"></i></a> <a class="page" target="_blank" href="https://play.google.com/store/apps/details?id=com.taskgramforuser.activity"><i class="fa fa-arrow-circle-right"></i></a> </div>
+
+                    </div>
+
+                    <div class="work-post-content"> <a target="_blank" href="https://play.google.com/store/apps/details?id=com.taskgramforuser.activity">
+
+                      <h2>TASKGRAM</h2>
+
+                      </a> <span>Android Development</span> </div>
+
+                  </div>
+
+                </div>
+
+				
+
+              </div>
+
+            </div>
+
+			
+
+            
+
+            <div class="item">
+
+              <div class="row">
+
+                <div class="col-md-4">
+
+                  <div class="work-post">
+
+                    <div class="work-post-gal">
+
+                     <img alt="" src="images/portfolio/medium-portfolio/360-271stone&pro.png">
+
+                      <div class="hover-box"> <a class="zoom" href="images/portfolio/full-stoneandtile.png"><i class="fa fa-plus-circle"></i></a> <a class="page" target="_blank" href="http://stoneandtilepros.com"><i class="fa fa-arrow-circle-right"></i></a> </div>
+
+                    </div>
+
+                    <div class="work-post-content"> <a target="_blank" href="http://stoneandtilepros.com">
+
+                      <h2>Stone And Tile PROS</h2>
+
+                      </a> <span>CodeIgniter-Framework</span> </div>
+
+                  </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                  <div class="work-post">
+
+                    <div class="work-post-gal"> <img alt="" src="images/portfolio/medium-portfolio/themainframeonline_medium.png">
+
+                      <div class="hover-box"> <a class="zoom" href="images/portfolio/full-portfolio/themainframeonline_full.png"><i class="fa fa-plus-circle"></i></a> <a class="page"target="_blank" href="http://prosteem.com/"><i class="fa fa-arrow-circle-right"></i></a> </div>
+
+                    </div>
+
+                    <div class="work-post-content"> <a target="_blank" href="http://themainframeonline.com/">
+
+                      <h2>MAINFRAME COUMPTER</h2>
+
+                      </a> <span>Magento-Framework</span> </div>
+
+                  </div>
+
+                </div>
+
+          		<div class="col-md-4">
+
+                  <div class="work-post">
+
+                    <div class="work-post-gal"> <img alt="" src="images/portfolio/medium-portfolio/money-funding-medium.png">
+
+                      <div class="hover-box"> <a class="zoom" href="images/portfolio/full-portfolio/money-funding-full.png"><i class="fa fa-plus-circle"></i></a> <a class="page"  target="_blank"  href="http://moneyfundingnetwork.com/"><i class="fa fa-arrow-circle-right"></i></a> </div>
+
+                    </div>
+
+                    <div class="work-post-content"><a target="_blank" href="http://moneyfundingnetwork.com/">
+
+                      <h2>MONEYFUNDING NETWORK</h2>
+
+                      </a><span>Wordpress Development</span> </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            
+
+            
+
+            
+
+			
+
+          </div>
+
+          <!-- Controls -->
+
+          <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"></a> <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"></a> </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<script type="text/javascript">
+
+    var tpj=jQuery;
+    tpj.noConflict();
+
+    tpj(document).ready(function() {
+
+    if (tpj.fn.cssOriginal!=undefined)
+      tpj.fn.css = tpj.fn.cssOriginal;
+
+      var api = tpj('.fullwidthbanner').revolution(
+        {
+          delay:8000,
+          startwidth:1170,
+          startheight:500,
+
+          onHoverStop:"off",            // Stop Banner Timet at Hover on Slide on/off
+
+          thumbWidth:100,             // Thumb With and Height and Amount (only if navigation Tyope set to thumb !)
+          thumbHeight:50,
+          thumbAmount:3,
+
+          hideThumbs:0,
+          navigationType:"none",        // bullet, thumb, none
+          navigationArrows:"solo",        // nexttobullets, solo (old name verticalcentered), none
+
+          navigationStyle:"round",        // round,square,navbar,round-old,square-old,navbar-old, or any from the list in the docu (choose between 50+ different item), custom
+
+
+          navigationHAlign:"center",        // Vertical Align top,center,bottom
+          navigationVAlign:"bottom",          // Horizontal Align left,center,right
+          navigationHOffset:30,
+          navigationVOffset: 40,
+
+          soloArrowLeftHalign:"left",
+          soloArrowLeftValign:"center",
+          soloArrowLeftHOffset:0,
+          soloArrowLeftVOffset:0,
+
+          soloArrowRightHalign:"right",
+          soloArrowRightValign:"center",
+          soloArrowRightHOffset:0,
+          soloArrowRightVOffset:0,
+
+          touchenabled:"on",            // Enable Swipe Function : on/off
+
+
+          stopAtSlide:-1,             // Stop Timer if Slide "x" has been Reached. If stopAfterLoops set to 0, then it stops already in the first Loop at slide X which defined. -1 means do not stop at any slide. stopAfterLoops has no sinn in this case.
+          stopAfterLoops:-1,            // Stop Timer if All slides has been played "x" times. IT will stop at THe slide which is defined via stopAtSlide:x, if set to -1 slide never stop automatic
+
+          hideCaptionAtLimit:0,         // It Defines if a caption should be shown under a Screen Resolution ( Basod on The Width of Browser)
+          hideAllCaptionAtLilmit:0,       // Hide all The Captions if Width of Browser is less then this value
+          hideSliderAtLimit:0,          // Hide the whole slider, and stop also functions if Width of Browser is less than this value
+
+
+          fullWidth:"on",
+
+          shadow:1                //0 = no Shadow, 1,2,3 = 3 Different Art of Shadows -  (No Shadow in Fullwidth Version !)
+
+        });
+
+
+        // TO HIDE THE ARROWS SEPERATLY FROM THE BULLETS, SOME TRICK HERE:
+        // YOU CAN REMOVE IT FROM HERE TILL THE END OF THIS SECTION IF YOU DONT NEED THIS !
+          api.bind("revolution.slide.onloaded",function (e) {
+
+
+            jQuery('.tparrows').each(function() {
+              var arrows=jQuery(this);
+
+              var timer = setInterval(function() {
+
+                if (arrows.css('opacity') == 1 && !jQuery('.tp-simpleresponsive').hasClass("mouseisover"))
+                  arrows.fadeOut(300);
+              },3000);
+            })
+
+            jQuery('.tp-simpleresponsive, .tparrows').hover(function() {
+              jQuery('.tp-simpleresponsive').addClass("mouseisover");
+              jQuery('body').find('.tparrows').each(function() {
+                jQuery(this).fadeIn(300);
+              });
+            }, function() {
+              if (!jQuery(this).hasClass("tparrows"))
+                jQuery('.tp-simpleresponsive').removeClass("mouseisover");
+            })
+          });
+        // END OF THE SECTION, HIDE MY ARROWS SEPERATLY FROM THE BULLETS
+      });
+  </script>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  }
+}
+</script>
+<script type="text/javascript">
+  $('.zoom').click(function(e) {
+    e.preventDefault();
+    $('.zoom').load(this.href).dialog('open');
+});
+</script>
